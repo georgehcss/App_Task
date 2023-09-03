@@ -2,4 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="background_tela">#161221</color>
+    <color name="background_editText">#1E192C</color>
+    <color name="textHint">#9E9E9E</color>
+    <color name="bg_botton">#7e28b4</color>
+
 </resources>

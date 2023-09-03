@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1015253095515",
+    "project_id": "app-task-934bb",
+    "storage_bucket": "app-task-934bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015253095515:android:ba7f0423eacb2721f91b7e",
+        "android_client_info": {
+          "package_name": "devandroid.george.apptask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015253095515-pjso8tobsqsql8b23e5c6hjdmj7pup33.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "devandroid.george.apptask",
+            "certificate_hash": "9baac28f09ddfa7a30d84ee4e086579accb5858d"
+          }
+        },
+        {
+          "client_id": "1015253095515-8cpuu99bi2mlpaj4o7fd4m669fi8vtl4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeNOBO9Y3MwREbyrSB2rKbYndgvPCFmr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015253095515-8cpuu99bi2mlpaj4o7fd4m669fi8vtl4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

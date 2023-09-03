@@ -1,3 +1,46 @@
 <resources>
     <string name="app_name">App Task</string>
+
+    <!--    Generics-->
+    <string name="txt_email">E-mail</string>
+    <string name="txt_password">Senha</string>
+    <string name="txt_register_account">Criar Conta</string>
+    <string name="error_generics">Ocorreu um erro, por favor tente novamente mais tarde.</string>
+
+    <!--    Login Fragment-->
+    <string name="txt_btn_login_fragment">Login</string>
+    <string name="txt_recover_login_fragment">Recuperar Conta</string>
+
+    <!--    Recover Account Fragment-->
+    <string name="txt_btn_recover_account_fragment">Enviar</string>
+
+    <!--    Erros Firebase Authentication-->
+    <string name="account_not_registered_register_fragment">Nenhuma conta encontrada com este e-mail.</string>
+    <string name="invalid_email_register_fragment">Insira um e-mail válido.</string>
+    <string name="email_in_use_register_fragment">Este e-mail já está em uso.</string>
+    <string name="invalid_password_register_fragment">Senha inválida, tente novamente.</string>
+    <string name="strong_password_register_fragment">Insira uma senha mais forte.</string>
+
+
+    <string name="progressBar_loading_tasks">Carregando Tarefas...</string>
+    <string name="txt_to_do">A Fazer</string>
+    <string name="txt_doing">Fazendo</string>
+    <string name="txt_done">Feitas</string>
+    <string name="txt_save">Salvar</string>
+    <string name="txt_tarefa_format_fragment">Tarefa</string>
+    <string name="txt_status_format_fragment">Status</string>
+    <string name="txt_editText_enter_a_new_task">Digite uma nova Tarefa</string>
+    <string name="txt_new_task">Nova Tarefa</string>
+    <string name="contentDescription_logout">logout</string>
+    <string name="tab_fragment_tarefas">tab fragment tarefas</string>
+    <string name="password_not_visible">********</string>
+    <string name="digiteseu_email_com">digiteseu@email.com</string>
+    <string name="txt_criar_conta">Criar Conta</string>
+    <string name="txt_recuperar_conta">Recuperar Conta</string>
+    <string name="txt_send">Enviar</string>
+    <string name="txt_create_account">Criar Conta</string>
+    <string name="txt_create_your_account">Crie sua Conta</string>
+    <string name="add_task">add task button</string>
+
+
 </resources>
