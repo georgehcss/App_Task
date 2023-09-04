@@ -77,5 +77,10 @@
         android:id="@+id/formtTaskFragment"
         android:name="devandroid.george.apptask.ui.FormtTaskFragment"
         android:label="fragment_formt_task"
-        tools:layout="@layout/fragment_formt_task" />
+        tools:layout="@layout/fragment_formt_task" >
+        <argument
+            android:name="task"
+            app:argType="devandroid.george.apptask.model.Task"
+            app:nullable="true" />
+    </fragment>
 </navigation>

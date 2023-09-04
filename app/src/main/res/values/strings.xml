@@ -41,6 +41,11 @@
     <string name="txt_create_account">Criar Conta</string>
     <string name="txt_create_your_account">Crie sua Conta</string>
     <string name="add_task">add task button</string>
+    <string name="txt_task_empty">Nenhuma Tarefa Cadastrada</string>
+    <string name="txt_save_task_sucess_form_task_fragment">Tarefa salva com Sucesso</string>
+    <string name="update_task_sucess_form_task_fragment">Tarefa atualizada com Sucesso</string>
+    <string name="text_erro_save_task_form_task_fragment">Erro ao salvar a Tarefa</string>
+    <string name="task_argument">task</string>
 
 
 </resources>

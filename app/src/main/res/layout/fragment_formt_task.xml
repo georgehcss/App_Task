@@ -20,6 +20,7 @@
             android:background="@color/background_tela">
 
             <TextView
+                android:id="@+id/txt_Toolbar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_new_task"
@@ -59,16 +60,16 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <EditText
-                android:id="@+id/editText"
+                android:id="@+id/editDescription"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:background="@drawable/bg_edit_text"
                 android:hint="@string/txt_editText_enter_a_new_task"
+                android:inputType="text"
                 android:padding="14dp"
                 android:textColorHint="@color/white"
                 android:textSize="14sp"
-                android:inputType="text"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -81,7 +82,7 @@
                 android:text="@string/txt_status_format_fragment"
                 android:textColor="@color/white"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editText" />
+                app:layout_constraintTop_toBottomOf="@+id/editDescription" />
 
             <RadioGroup
                 android:id="@+id/radioGroup"
@@ -94,15 +95,18 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView2">
 
                 <RadioButton
+                    android:id="@+id/rbTodo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/txt_to_do"
+                    android:checked="true"
                     android:textColor="@color/white"
                     android:buttonTint="@color/white"
                     />
 
                 <RadioButton
+                    android:id="@+id/rbDoing"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -111,6 +115,7 @@
                     android:buttonTint="@color/white"/>
 
                 <RadioButton
+                    android:id="@+id/rbDone"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -120,7 +125,7 @@
             </RadioGroup>
 
             <Button
-                android:id="@+id/btnLogin"
+                android:id="@+id/btnSaveTarefa"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_save"
@@ -138,7 +143,7 @@
                 android:layout_marginTop="8dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btnLogin"
+                app:layout_constraintTop_toBottomOf="@+id/btnSaveTarefa"
                 tools:visibility="visible" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

@@ -24,8 +24,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:background="@color/background_tela"
-                android:elevation="0dp"
                 android:contentDescription="@string/tab_fragment_tarefas"
+                android:elevation="0dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/ibLogout"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -43,16 +43,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:background="@android:color/transparent"
+                android:contentDescription="@string/contentDescription_logout"
                 android:paddingHorizontal="8dp"
                 android:src="@drawable/baseline_logout"
-                android:contentDescription="@string/contentDescription_logout"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
-
-
-
-
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

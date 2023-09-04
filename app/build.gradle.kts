@@ -4,6 +4,11 @@ plugins {
 
     //FireBase
     id("com.google.gms.google-services")
+
+    id("kotlin-parcelize")
+
+    // Safeargs
+    id("androidx.navigation.safeargs.kotlin")
 }
 
 android {
